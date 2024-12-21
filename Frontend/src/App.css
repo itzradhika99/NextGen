@@ -1,0 +1,52 @@
+/* App-specific styles */
+.NavBar {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.NavBar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.NavBar li {
+  margin-right: 15px;
+}
+
+.Footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.LandingPage {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.LandingPage h1 {
+  font-size: 2.5rem;
+}
+
+.Login, .Registration {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.Login input, .Registration input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
