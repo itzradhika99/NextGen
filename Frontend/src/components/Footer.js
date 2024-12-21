@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer>
-      <p>&copy; 2024 PayMate. All rights reserved.</p>
+    <footer className="Footer">
+      <p>© 2024 Real-time Collaboration Tool</p>
     </footer>
   );
-}
+};
 
 export default Footer;
