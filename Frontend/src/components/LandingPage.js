@@ -1,12 +1,16 @@
-import React from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-function LandingPage() {
+const LandingPage = () => {
   return (
-    <div>
-      <h1>Welcome to PayMate</h1>
-      <p>Your trusted digital payment wallet.</p>
+    <div className="LandingPage">
+      <h1>Welcome to Real-time Collaboration Tool</h1>
+      <p>Your ultimate platform for collaborative work and communication.</p>
+      <div>
+        <Link to="/login">Login</Link> | <Link to="/register">Register</Link>
+      </div>
     </div>
   );
-}
+};
 
 export default LandingPage;
